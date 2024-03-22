@@ -87,7 +87,7 @@ class CourseRepositoryTest {
          System.out.println("Courses : "+courses);
      }
 
-     @Transactional
+     
      @Test
      public void saveCourseWithStudentAndTeacher(){
          Teacher teacher=Teacher.builder()
