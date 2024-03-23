@@ -41,7 +41,7 @@ public class Course {
     @ManyToOne(  // Note: This is still unidirectional ManyToOne relationship
                 /* Here Many-> Course(Source Entity) and One->Teacher(Target Entity) */
 
-            cascade = CascadeType.DETACH
+            cascade = CascadeType.ALL
     )
     @JoinColumn(
             name="teacher_id",
