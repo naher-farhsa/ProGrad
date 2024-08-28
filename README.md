@@ -1,4 +1,4 @@
-# Spring Data JPA Project
+# Spring Data JPA Project implementing University ERP System
 
 - Mapping entities to DB
 - JPA annotations
